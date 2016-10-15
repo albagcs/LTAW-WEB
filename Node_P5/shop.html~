@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es ES">
+<head>
+	<title>My first shop online</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="shop_style.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+	<!--Barra de navegación -->
+	<header>
+    <nav>
+      <ul class = "menu">
+        <li><a href ="shop.html">Introduction</a></li>
+        <li><a href ="bikes.html">Bikes</a></li>
+        <li><a href ="music.html">Music</a></li>
+        <li><a href ="books.html">Books</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id= "intro">
+	<p style="font-size:140%;">
+		<b>We hope you could find anything you were looking for. Please, enjoy it!</b>
+	</p>
+	<div id="box">
+		<img src="bckg.jpg" align="center" alt="think" />
+	</div>
+  </div>
+  <div id="shop">
+  		<p style="font-size:140%;">
+		<b>BMB: Here below you appreciate a brief summary of our stuff</b>
+	</p>
+  </div>
+  <!-- Imágenes -->
+  <div class="summary">
+  	<img src="big.gif" align="center" alt="bikes" />
+    <img src="music.jpg" align="center" alt="music" />
+   	<img src="bog.gif" align="center" alt="books" />
+ 	<p style="color:white;"><b>Best bikes ever~/~Hard to find the best single~/~Ideal for books' geeks </b></p>
+  </div>
+</body>
