@@ -1,0 +1,95 @@
+body { background-image: url('4.jpg');background-repeat: inherit; font-family: 'Raleway', sans-serif;}
+
+header{
+    width: 100%;
+}
+nav {
+    margin-top: 40px;
+    list-style-type: none;
+    width: 200px;
+    border-radius: 8px;
+    background: #01DFD7; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #01DFD7 , #D3BC82); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #01DFD7, #D3BC82); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #01DFD7, #D3BC82); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #01DFD7 , #D3BC82); /* Standard syntax */
+}
+
+.menu {
+    list-style-type: none;
+    border-radius: 8px;
+    margin:0;
+    padding: 0;
+    width: 200px;
+    border: 1px solid #555;
+}
+
+.menu li a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.menu li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+.menu li:last-child {
+    border-bottom: none;
+}
+.menu li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+#intro {
+    color: white;
+    width: 200px;
+    height: 340px;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 0;
+    background: black;
+    border: 1px solid white;
+    text-align: center;
+}
+#box img {
+    width:160px;
+    height: 160px;
+    border: 1px solid Black;
+    border-radius: 8px;
+    padding: 0px;
+    margin-top:5px;
+}
+#shop {
+    color: #555;
+    width: 700px;
+    height: 75px;
+    border-radius: 8px;
+    margin-left: 400px;
+    margin-top: -515px;   
+    padding: 0;
+    background-image: url("bluew.jpg");
+    border: 1px solid white;
+    text-align: center;
+}
+
+.summary {
+    width: 1000px;
+    height: 425px;
+    border-radius: 8px;
+    margin-left: 250px;
+    margin-top: 10px;   
+    padding: 0;
+    background: #555;
+    border: 1px solid white;
+    text-align: center;
+}
+.summary img {
+    margin-top: 10px;
+    width: 300px;
+    height: 350px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
