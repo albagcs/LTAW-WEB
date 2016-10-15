@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es ES">
+  <head>
+    <title>My first shop online</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="items_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+    <link href= "https://fonts.googleapis.com/css?family=Source+Sans+Pro:200" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript">
+      function setcookie() {
+        var x = document.cookie; 
+        window.alert(x);
+      } 
+    </script>
+  </head>
+  <body style="background-image: url(cont.jpg);background-repeat: no-repeat;font-family: Raleway, sans-serif">
+  <!--Barra de navegación -->
+	  <header>
+      <nav>
+        <ul class = "menu">
+          <li><a href ="shop.html">Introduction</a></li>
+          <li><a href ="bikes.html">Bikes</a></li>
+          <li><a href ="music.html">Music</a></li>
+          <li><a href ="books.html">Books</a></li>
+          <li><a href ="contactar.html">Contact</a></li>
+          <li><a onclick="setcookie()"><span class="icon-cart"></span></a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="title">
+      <p style="font-size:140%;"><b>Contact</b></p>
+    </div>
+    <div id = "view_contact"> 
+      <h1>Please, fill the form</h1> 
+      <form name="myForm" action="" onsubmit="" method="post"> 
+      Color:<input type="color" name="color" value="#ff0000"><br></br> 
+      Date:<input type="date" name="fecha"><br></br> 
+      Dial-1:<input type="radio" name="dial" value="dial1"><br></br> 
+      Dial-2:<input type="radio" name="dial" value="dial2"><br></br> 
+      Numeric field:<input type="number" name="numerico"><br></br> 
+      Text 1:<input type="text" name="text1"><br></br> 
+      Text 2:<input type="text" name="text2"><br></br> 
+      <input type="submit" value="Registrarse"><br></br> 
+      </form> 
+    </div> 
+  </body> 
+</html>
