@@ -1,0 +1,60 @@
+body { background: Black; font-family: 'Raleway', sans-serif;}
+h1   {font-family: 'Raleway', sans-serif;}
+p    {font-family: 'Raleway', sans-serif;}
+
+
+#cv{
+	width: 100%;
+	width: 740px;
+	background-image: url('dots.jpg'); 
+	background-size: cover;
+	border-radius: 25px;
+    border: 6px solid black;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+.personal{
+	margin-left: 50px;
+}
+
+.tel{
+	list-style-image: url(tecnologia.png)
+}
+
+.bday{
+	list-style-image: url(personas.png)
+}
+
+.country{
+	list-style-image: url(mapa.png)
+}
+
+.dni{
+	list-style-image: url(educacion.png)
+}
+
+.mail{
+	list-style-image: url(nota.png)
+}
+
+#border{
+	height: 200px;
+	border-radius: 25px;
+    border: 4px solid black;
+    padding: 20px;
+    background: url('blue2.jpg');
+    background-repeat: repeat;
+    
+}
+
+#pic img {
+	width: 140px;
+	height: 200px;
+	border: 4px solid Black;
+    border-radius: 100px;
+    padding: 0px;
+    margin-right:80px;
+
+
+}
