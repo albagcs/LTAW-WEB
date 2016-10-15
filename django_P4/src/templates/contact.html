@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+{% load staticfiles %}
+{% block contact %}
+ <div id="title" style="background-image: url({% static "img/bluew.jpg"%})">
+    <p style="font-size:140%;"><b>Registro</b></p>
+  </div>
+<div id = "view_contact" style="background-image: url({% static "img/bluew.jpg"%})">
+    {% if form %}
+    <form id ="formulario" method='POST' action =''> {% csrf_token %} <!--Para seguridad-->
+        {{ form.as_p }}
+        <input type = 'submit' value ="Registrarse">
+    </form>
+    {% endif %}
+</div>
+{% endblock %}

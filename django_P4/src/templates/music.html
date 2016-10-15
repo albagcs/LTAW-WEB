@@ -1,0 +1,33 @@
+{% extends 'index.html' %}
+{% load staticfiles %}
+{% block music %}
+  <div id="title" style="background-image: url({% static "img/bluew.jpg"%})">
+    <p style="font-size:140%;"><b>Music</b></p>
+  </div>
+  <div class = "box" style="background-image: url({% static "img/bluew.jpg"%})">
+    <div id="leftb">
+        <h3>Wings-Birdy</h3>
+        <img src='{% static "img/wings.jpg"%}' width="200" height="200"/>
+        <p>Flawless. Try it</p> 
+        <audio id = "audio" src='{%static "music/wings.mp3"%}' type="audio/mp3"></audio>
+        <button onclick="document.getElementById('audio').play()">Play</button>
+        <button onclick="document.getElementById('audio').pause()">Pause</button>
+    </div>
+    <div id="middleb">
+        <h3>Sound of silence-SG</h3>
+        <img src='{% static "img/sos.jpg"%}' width="200" height="200"/>
+        <p>Peaceful. Try it</p>   
+        <audio id = "audio" src='{%static "music/sound.mp3"%}' type="audio/mp3"></audio>
+        <button onclick="document.getElementById('audio').play()">Play</button>
+        <button onclick="document.getElementById('audio').pause()">Pause</button>     
+    </div>
+    <div id="rightb">
+        <h3>Get Weird-Little Mix</h3>
+        <img src='{% static "img/lm.jpg"%}' width="200" height="200"/>
+        <p>Peppy. Try it</p>  
+        <audio id = "audio" src='{%static "music/secret.mp3"%}' type="audio/mp3"></audio>
+        <button onclick="document.getElementById('audio').play()">Play</button>
+        <button onclick="document.getElementById('audio').pause()">Pause</button>      
+    </div>
+  </div>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'index.html' %}
+{% load staticfiles %}
+{% block view_bike %}
+  <div id="title" style="font-size:115%; background-image: url({% static "img/bluew.jpg"%})">
+    <p style="font-size:140%;"><b>Bicycles</b></p>
+  </div>
+  <div id="view" style="background-image: url({% static "img/bluew.jpg"%})">
+      <h1>Bike video</h1> 
+        <video width="320" height="240" controls>
+          <source src="{% static "video/Bici.mp4"%}" type="video/mp4">
+        </video>
+    </div> 
+{% endblock %}

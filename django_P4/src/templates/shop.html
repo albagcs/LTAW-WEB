@@ -1,0 +1,24 @@
+{% extends 'index.html' %}
+{% load staticfiles %}
+{% block shop %}
+  <div id= "intro">
+    <p style="font-size:140%;">
+        <b>We hope you could find anything you were looking for. Please, enjoy it!</b>
+    </p>
+    <div id="box">
+        <img src='{% static "img/bckg.jpg"%}' align="center" alt="think" />
+    </div>
+  </div>
+  <div id="shop" style="background-image: url({% static "img/bluew.jpg"%})">
+        <p style="font-size:140%;">
+        <b>BMB: Here below you appreciate a brief summary of our stuff</b>
+    </p>
+  </div>
+  <!-- Imágenes -->
+  <div class="summary">
+    <img href ="{% url "bikes" %}" src='{% static "img/big.gif"%}' />
+    <img href ="{% url "music" %}" src='{% static "img/music.jpg"%}' />
+    <img href ="{% url "books" %}" src='{% static "img/bog.gif"%}' />
+    <p style="color:white;"><b>Best bikes ever~/~Hard to find the best single~/~Ideal for books' geeks </b></p>
+  </div>
+{% endblock %}

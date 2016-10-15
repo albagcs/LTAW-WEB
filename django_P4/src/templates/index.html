@@ -1,0 +1,47 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="es ES">
+<head>
+    <title>My first shop online</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href='{% static "css/shop_style.css"%}'/>
+    <link href='{% static "css/shop_style.css"%}' rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200' rel='stylesheet' type='text/css'>
+</head>
+
+<body style="background-image: url({% static "img/4.jpg" %});background-repeat: inherit; font-family: Raleway, sans-serif">
+    <!-- <form method='POST'  action=''>{% csrf_token %}
+          {{form.as_p}}
+          <input type='submit' value='Send'>
+         </form> -->
+    <!--Barra de navegación -->
+    <header>
+    <nav>
+      <ul class = "menu">
+        <li><a href ="{% url "shop" %}">Introduction</a></li>
+        <li><a href ="{% url "bikes" %}">Bikes</a></li>
+        <li><a href ="{% url "music" %}">Music</a></li>
+        <li><a href ="{% url "books" %}">Books</a></li>
+        <li><a href ="{% url "contact" %}">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  {% block contact %}
+  {% endblock %}
+  {% block bikes %}
+  {% endblock %}
+  {% block shop %}
+  {% endblock %}  
+  {% block music %}
+  {% endblock %}
+  {% block books %}
+  {% endblock %}
+  {% block view_bike %}
+  {% endblock %}
+  
+</body>
+</html>
