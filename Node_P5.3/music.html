@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es ES">
+<head>
+	<title>My first shop online</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="items_style.css">
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript">
+      function setcookie() {
+      var x = document.cookie;
+      window.alert(x);
+      } 
+    </script>
+</head>
+
+<body style="background-image: url(14.jpg);background-repeat: repeat-y;font-family: Raleway, sans-serif">
+	<!--Barra de navegación -->
+	<header>
+    <nav>
+      <ul class = "menu">
+        <li><a href ="shop.html">Introduction</a></li>
+        <li><a href ="bikes.html">Bikes</a></li>
+        <li><a href ="music.html">Music</a></li>
+        <li><a href ="books.html">Books</a></li>
+        <li><a href ="contactar.html">Contact</a></li>
+        <li><a onclick="setcookie()"><span class="icon-cart"></span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="title">
+    <p style="font-size:140%;"><b>Music</b></p>
+  </div>
+  <div class = "box">
+    <div id="leftb">
+        <h3>Wings-Birdy</h3>
+        <img src="wings.jpg" width="200" height="200"/>
+        <p>Flawless. Buy here</p>        
+              <input type="button" onclick=" location.href='view_music.html' " value="Buy" name="boton" /> 
+    </div>
+    <div id="middleb">
+        <h3>Sound of silence-SG</h3>
+        <img src="sos.jpg" width="200" height="200"/>
+        <p>Peaceful. Buy here</p>        
+              <input type="button" onclick=" location.href='view_music_s.html' " value="Buy" name="boton" /> 
+    </div>
+    <div id="rightb">
+        <h3>Get Weird-Little Mix</h3>
+        <img src="lm.jpg" width="200" height="200"/>
+        <p>Peppy. Buy here</p>        
+              <input type="button" onclick=" location.href='view_music_lm.html' " value="Buy" name="boton" /> 
+    </div>
+  </div>
+
+
+</body>
+</html>
